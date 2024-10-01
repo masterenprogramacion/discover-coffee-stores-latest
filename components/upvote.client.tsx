@@ -17,8 +17,7 @@ export function SubmitButton({ pending }: { pending: boolean }) {
           src="/static/icons/loading-spinner.svg"
           width="30"
           height="30"
-          alt="Loading"
-          className="m-auto"
+          alt="Loading"          className="m-auto"
         />
       ) : (
         'Up vote!'
